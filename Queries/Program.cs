@@ -2,12 +2,33 @@
 
 namespace Queries
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             using (var unitOfWork = new UnitOfWork(new PlutoContext()))
             {
+                // ReSharper disable once InvalidXmlDocComment
+                /**
+                 * App Structure
+                 *
+                 * - Presentation
+                 * -- Form
+                 * -- ViewModel
+                 * -- Controller
+                 *
+                 * - Business Logic / Core
+                 * -- Domain
+                 * -- IRepositories
+                 * -- IUnitOfWork
+                 *
+                 * - Data Access / Persistence
+                 * -- Entity Configurations
+                 * -- Repositories
+                 * -- DbContext
+                 * -- UnitOfWork
+                 */
+
                 // Example1
                 var course = unitOfWork.Courses.Get(1);
 
@@ -23,4 +44,3 @@ namespace Queries
         }
     }
 }
-  

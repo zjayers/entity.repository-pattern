@@ -1,8 +1,7 @@
 # Entity Repository-Pattern
-[![GitHub Release](https://img.shields.io/github/release/zjayers/entity.repository-pattern.svg?style=flat)]()
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/entity.repository-pattern.svg?style=flat)]()
+[![GitHub Release](https://img.shields.io/github/release/zjayers/entity.repository-pattern.svg?style=flat)](https://github.com/zjayers/entity.repository-pattern/releases)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/zjayers/entity.repository-pattern.svg?style=flat)](https://github.com/zjayers/entity.repository-pattern/pulls)
 [![Issues](https://img.shields.io/github/issues-raw/zjayers/entity.repository-pattern.svg?maxAge=25000)](https://github.com/zjayers/entity.repository-pattern/issues)
-[![MIT License](https://img.shields.io/apm/l/atomic-ui.svg?)](https://github.com/zjayers/entity.repository-pattern/blob/master/LICENSEs)
 
 ## Description
 
